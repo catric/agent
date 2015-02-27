@@ -14,13 +14,11 @@ import (
 	"runtime/debug"
 )
 
-
 const (
 
 	SERVER_NAME = "vpnagent"
 	SERVER_VERSION = "1.00n"
 	SERVER_PORT = "62688"
-
 )
 
 // 初始化日志
@@ -87,10 +85,14 @@ func NotFoundHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func AgentHandler(w http.ResponseWriter, r *http.Request) {
+
 //	if r.URL.Path == "/" {
 //		http.Redirect(w, r, "/agent", http.StatusFound)
 //		return
 //	}
+
+	
+
 	html := `Not Found 404 404 404 404`
 	io.WriteString(w, html)
 }
@@ -133,7 +135,7 @@ func main() {
 
 	Log.Info(SERVER_NAME + " Ver=" + SERVER_VERSION)
 	startup()
-
+	
 	// dead loop for console input
 	argc := len(os.Args)
 	if argc == 1 { // console mode
