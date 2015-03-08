@@ -1,0 +1,176 @@
+[2015-03-07 21:22:21.264][main][INFO] ########################
+[2015-03-07 21:22:21.264][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:22:21.264][main][INFO] ########################
+[2015-03-07 21:22:21.264][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:22:21.264][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:22:21.264][startup][INFO] 	PORT = 62688
+[2015-03-07 21:22:26.610][AgentHandler][INFO] Entering AgentHandler ...
+[2015-03-07 21:22:26.611][AgentHandler][DEBU] data = m=adduser&uname=vbbpn&pwd=123qwe&nodes={"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]}
+[2015-03-07 21:22:26.611][ParseParams][DEBU] Parse params m = map[nodes:{"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]} m:adduser uname:vbbpn pwd:123qwe]
+[2015-03-07 21:22:26.611][AddUserHandler][INFO] Entering AddUserHandler ...
+[2015-03-07 21:22:26.613][AddUserHandler][DEBU] batch cmd = 
+ hub vpn 
+ UserCreate vbbpn 
+ UserPasswordSet vbbpn /PASSWORD:123qwe 
+  
+[2015-03-07 21:22:26.615][executeCommands][DEBU] cmdstr = ./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /in:./cmdfile/./cmdfile/dmiNgBeD.cmd
+[2015-03-07 21:22:26.618][runCmd][ERRO] err=exec: "./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /in:./cmdfile/./cmdfile/dmiNgBeD.cmd": file does not exist
+[2015-03-07 21:23:28.316][main][INFO] ########################
+[2015-03-07 21:23:28.316][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:23:28.316][main][INFO] ########################
+[2015-03-07 21:23:28.316][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:23:28.316][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:23:28.316][startup][INFO] 	PORT = 62688
+[2015-03-07 21:23:31.728][AgentHandler][INFO] Entering AgentHandler ...
+[2015-03-07 21:23:31.728][AgentHandler][DEBU] data = m=adduser&uname=vbbpn&pwd=123qwe&nodes={"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]}
+[2015-03-07 21:23:31.728][ParseParams][DEBU] Parse params m = map[uname:vbbpn pwd:123qwe nodes:{"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]} m:adduser]
+[2015-03-07 21:23:31.729][AddUserHandler][INFO] Entering AddUserHandler ...
+[2015-03-07 21:23:31.744][AddUserHandler][DEBU] batch cmd = 
+ hub vpn 
+ UserCreate vbbpn 
+ UserPasswordSet vbbpn /PASSWORD:123qwe 
+  
+[2015-03-07 21:23:31.745][executeCommands][DEBU] cmdstr = ./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /in:./cmdfile/LpyXXRUa.cmd
+[2015-03-07 21:23:31.746][runCmd][ERRO] err=exec: "./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /in:./cmdfile/LpyXXRUa.cmd": file does not exist
+[2015-03-07 21:37:22.618][main][INFO] ########################
+[2015-03-07 21:37:22.619][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:37:22.619][main][INFO] ########################
+[2015-03-07 21:37:22.619][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:37:22.619][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:37:22.619][startup][INFO] 	PORT = 62688
+[2015-03-07 21:38:55.598][main][INFO] ########################
+[2015-03-07 21:38:55.599][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:38:55.599][main][INFO] ########################
+[2015-03-07 21:38:55.599][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:38:55.599][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:38:55.599][startup][INFO] 	PORT = 62688
+[2015-03-07 21:39:34.464][main][INFO] ########################
+[2015-03-07 21:39:34.464][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:39:34.464][main][INFO] ########################
+[2015-03-07 21:39:34.464][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:39:34.464][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:39:34.464][startup][INFO] 	PORT = 62688
+[2015-03-07 21:40:11.864][AgentHandler][INFO] Entering AgentHandler ...
+[2015-03-07 21:40:11.865][AgentHandler][DEBU] data = m=adduser&uname=vbbpn&pwd=123qwe&nodes={"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]}
+[2015-03-07 21:40:11.865][ParseParams][DEBU] Parse params m = map[m:adduser uname:vbbpn pwd:123qwe nodes:{"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]}]
+[2015-03-07 21:40:11.865][AddUserHandler][INFO] Entering AddUserHandler ...
+[2015-03-07 21:40:11.866][AddUserHandler][DEBU] batch cmd = 
+ hub vpn 
+ UserCreate vbbpn 
+ UserPasswordSet vbbpn /PASSWORD:123qwe 
+  
+[2015-03-07 21:40:11.868][executeCommands][DEBU] cmdstr = ./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /IN:./cmdfile/GCbkXRzQ.txt
+[2015-03-07 21:40:11.871][runCmd][ERRO] err=exec: "./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /IN:./cmdfile/GCbkXRzQ.txt": file does not exist
+[2015-03-07 21:42:04.535][main][INFO] ########################
+[2015-03-07 21:42:04.535][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:42:04.535][main][INFO] ########################
+[2015-03-07 21:42:04.535][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:42:04.535][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:42:04.535][startup][INFO] 	PORT = 62688
+[2015-03-07 21:42:07.152][AgentHandler][INFO] Entering AgentHandler ...
+[2015-03-07 21:42:07.153][AgentHandler][DEBU] data = m=adduser&uname=vbbpn&pwd=123qwe&nodes={"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]}
+[2015-03-07 21:42:07.153][ParseParams][DEBU] Parse params m = map[uname:vbbpn pwd:123qwe nodes:{"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]} m:adduser]
+[2015-03-07 21:42:07.156][AddUserHandler][INFO] Entering AddUserHandler ...
+[2015-03-07 21:42:07.169][AddUserHandler][DEBU] batch cmd = 
+ hub vpn 
+ UserCreate vbbpn 
+ UserPasswordSet vbbpn /PASSWORD:123qwe 
+  
+[2015-03-07 21:42:07.169][makeBatchFile][DEBU] makeBatchFile Entering... ...
+[2015-03-07 21:42:07.170][executeCommands][DEBU] cmdstr = ./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /IN:./cmdfile/sLrmDNCK.txt
+[2015-03-07 21:42:07.171][runCmd][ERRO] err=exec: "./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /IN:./cmdfile/sLrmDNCK.txt": file does not exist
+[2015-03-07 21:45:11.111][main][INFO] ########################
+[2015-03-07 21:45:11.112][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:45:11.112][main][INFO] ########################
+[2015-03-07 21:45:11.112][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:45:11.112][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:45:11.112][startup][INFO] 	PORT = 62688
+[2015-03-07 21:45:27.233][AgentHandler][INFO] Entering AgentHandler ...
+[2015-03-07 21:45:27.233][AgentHandler][DEBU] data = m=adduser&uname=vbbpn&pwd=123qwe&nodes={"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]}
+[2015-03-07 21:45:27.234][ParseParams][DEBU] Parse params m = map[uname:vbbpn pwd:123qwe nodes:{"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]} m:adduser]
+[2015-03-07 21:45:27.234][AddUserHandler][INFO] Entering AddUserHandler ...
+[2015-03-07 21:45:27.255][AddUserHandler][DEBU] batch cmd = 
+ hub vpn 
+ UserCreate vbbpn 
+ UserPasswordSet vbbpn /PASSWORD:123qwe 
+  
+[2015-03-07 21:45:27.256][makeBatchFile][DEBU] makeBatchFile Entering... ...
+[2015-03-07 21:45:27.257][executeCommands][DEBU] cmdstr = ./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /IN:uaflJkaT.txt
+[2015-03-07 21:45:27.259][runCmd][ERRO] err=exec: "./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /IN:uaflJkaT.txt": file does not exist
+[2015-03-07 21:47:08.082][main][INFO] ########################
+[2015-03-07 21:47:08.082][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:47:08.082][main][INFO] ########################
+[2015-03-07 21:47:08.082][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:47:08.082][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:47:08.082][startup][INFO] 	PORT = 62688
+[2015-03-07 21:47:13.801][AgentHandler][INFO] Entering AgentHandler ...
+[2015-03-07 21:47:13.802][AgentHandler][DEBU] data = m=adduser&uname=vbbpn&pwd=123qwe&nodes={"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]}
+[2015-03-07 21:47:13.802][ParseParams][DEBU] Parse params m = map[m:adduser uname:vbbpn pwd:123qwe nodes:{"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]}]
+[2015-03-07 21:47:13.803][AddUserHandler][INFO] Entering AddUserHandler ...
+[2015-03-07 21:47:13.818][AddUserHandler][DEBU] batch cmd = 
+ hub vpn 
+ UserCreate vbbpn 
+ UserPasswordSet vbbpn /PASSWORD:123qwe 
+  
+[2015-03-07 21:47:13.819][makeBatchFile][DEBU] makeBatchFile Entering... ...
+[2015-03-07 21:47:13.820][executeCommands][DEBU] cmdstr = ./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /IN:fPFVHYpe.txt
+[2015-03-07 21:47:13.823][runCmd][ERRO] err=exec: "./cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /IN:fPFVHYpe.txt": file does not exist
+[2015-03-07 21:53:22.789][main][INFO] ########################
+[2015-03-07 21:53:22.789][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:53:22.789][main][INFO] ########################
+[2015-03-07 21:53:22.789][main][INFO] Current Path = D:\work\eclipse_workspace\vpnagent\bin\vpnagent.exe
+[2015-03-07 21:53:22.789][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:53:22.789][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:53:22.789][startup][INFO] 	PORT = 62688
+[2015-03-07 21:55:24.946][main][INFO] ########################
+[2015-03-07 21:55:24.947][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 21:55:24.947][main][INFO] ########################
+[2015-03-07 21:55:24.947][main][INFO] Current Path = D:\work\eclipse_workspace\vpnagent\bin
+[2015-03-07 21:55:24.947][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 21:55:24.947][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 21:55:24.947][startup][INFO] 	PORT = 62688
+[2015-03-07 22:20:02.241][main][INFO] ########################
+[2015-03-07 22:20:02.241][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 22:20:02.241][main][INFO] ########################
+[2015-03-07 22:20:02.241][main][INFO] Current Path = D:\work\eclipse_workspace\vpnagent\bin
+[2015-03-07 22:20:02.241][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 22:20:02.241][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 22:20:02.241][startup][INFO] 	PORT = 62688
+[2015-03-07 22:43:28.505][main][INFO] ########################
+[2015-03-07 22:43:28.505][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 22:43:28.505][main][INFO] ########################
+[2015-03-07 22:43:28.506][main][INFO] Current Path = D:\work\eclipse_workspace\vpnagent\bin
+[2015-03-07 22:43:28.506][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 22:43:28.506][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 22:43:28.506][startup][INFO] 	PORT = 62688
+[2015-03-07 22:45:13.047][main][INFO] ########################
+[2015-03-07 22:45:13.048][main][INFO] vpnagent Ver=1.00n
+[2015-03-07 22:45:13.048][main][INFO] ########################
+[2015-03-07 22:45:13.048][main][INFO] Current Path = D:\work\eclipse_workspace\vpnagent\bin
+[2015-03-07 22:45:13.048][startup][INFO] vpnagent System starting ... ...
+[2015-03-07 22:45:13.048][startup][INFO] HTTP Server starting ... ...
+[2015-03-07 22:45:13.048][startup][INFO] 	PORT = 62688
+[2015-03-07 22:45:28.336][AgentHandler][INFO] Entering AgentHandler ...
+[2015-03-07 22:45:28.337][AgentHandler][DEBU] data = m=adduser&uname=vbbpn&pwd=123qwe&nodes={"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]}
+[2015-03-07 22:45:28.337][ParseParams][DEBU] Parse params m = map[uname:vbbpn pwd:123qwe nodes:{"Nodes":[{"Ip":"119.9.73.63","Port":"443"}]} m:adduser]
+[2015-03-07 22:45:28.337][AddUserHandler][INFO] Entering AddUserHandler ...
+[2015-03-07 22:45:28.337][AddUserHandler][DEBU] batch cmd = 
+ hub vpn 
+ UserCreate vbbpn 
+ UserPasswordSet vbbpn /PASSWORD:123qwe 
+  
+[2015-03-07 22:45:28.337][makeBatchFile][DEBU] makeBatchFile Entering... ...
+[2015-03-07 22:45:28.337][makeBatchFile][DEBU] filename = D:\work\eclipse_workspace\vpnagent\bin/cmdfile/glZMmOOM.txt
+[2015-03-07 22:45:28.338][makeBatchFile][DEBU] create batch cmd file... ...file=&{0xc0820102a0}
+[2015-03-07 22:45:28.514][executeCommands][DEBU] cmdstr = D:\work\eclipse_workspace\vpnagent\bin/cmd/vpncmd 119.9.73.63:443 /SERVER /PASSWORD:123qwe /IN:D:\work\eclipse_workspace\vpnagent\bin/cmdfile/glZMmOOM.txt
+[2015-03-07 22:45:38.255][func·001][INFO] command output = vpncmd command - SoftEther VPN Command Line Management Utility
+SoftEther VPN Command Line Management Utility (vpncmd command)
+Version 4.14 Build 9529   (English)
+Compiled 2015/02/02 17:53:35 by yagi at pc30
+Copyright (c) SoftEther VPN Project. All Rights Reserved.
+
+Connection has been established with VPN Server "119.9.73.63" (port 443).
+
+You have administrator privileges for the entire VPN Server.
+
+VPN Server>
